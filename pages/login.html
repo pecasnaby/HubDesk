@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+  <header></header>
+
+  <main>
+    <div class="container">
+      <div class="user-type">
+        <label for="adm">
+          <input type="radio" name="opt" id="adm" value="Administrador"> Administrador
+        </label>
+        <label for="dev">
+          <input type="radio" name="opt" id="dev" value="Colaborador"> Colaborador
+        </label>
+        <label for="view">
+          <input type="radio" name="opt" id="view" value="Cliente"> Cliente
+        </label>
+      </div>
+
+      <div class="login-box">
+        <label for="name">Usuário:</label>
+        <input type="text" name="name" id="name" placeholder="usuario123@email.com" required>
+
+        <label for="password">Palavra-chave:</label>
+        <input type="password" name="password" id="password" required>
+
+        <a href="#">Esqueceu a senha?</a>
+
+        <button>LOGIN</button>
+
+        <p>Não tem uma conta? <a href="#">Registre-se aqui</a></p>
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+
+  <footer></footer>
+</body>
+
+</html>
