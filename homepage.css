@@ -130,4 +130,36 @@ nav a:hover {
 }
 
 
+.container {
+  display: flex;
+  padding: 30px;
+  gap: 20px;
+  height: calc(100vh - 80px); /* 100% da tela menos a altura da navbar */
+  box-sizing: border-box;
+}
+
+.left-panel {
+  flex: 2;
+  background-color: #d3d3d3;
+  border: 2px solid #00aaff;
+  border-radius: var(--radius);
+}
+
+.right-panel {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.right-panel .box {
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  text-align: center;
+  height: 100px;
+  background-color: #d3d3d3;
+  border-radius: var(--radius);
+  font-weight: bold;       
+}
 
