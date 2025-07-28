@@ -6,6 +6,8 @@
 }
 
 
+
+
 :root {
   --bg-color: #f4f4f4;
   --text-color: #111;
@@ -159,59 +161,3 @@ nav a:hover {
   text-decoration: underline;
 }
 
-/* Layout em grade das pastas */
-.right-panel {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 30px;
-  padding: 40px;
-  justify-items: center;
-}
-
-/* Caixa de cada pasta */
-.box {
-  width: 120px;
-  height: 150px;
-  border: 2px solid white;
-  border-radius: 15px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: 0.3s;
-  background-color: transparent;
-}
-
-.box:hover {
-  background-color: #333;
-  transform: scale(1.05);
-}
-
-/* Link dentro da caixa */
-.box a {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-decoration: none;
-  color: white;
-}
-
-/* Ícone de imagem */
-.box img {
-  width: 70px;
-  height: 70px;
-  margin-bottom: 10px;
-  object-fit: contain;
-  filter: none;
-
-}
-
-/* Texto abaixo da imagem */
-.box p {
-  margin: 0;
-  font-size: 0.85rem;
-  text-align: center;
-}
-
-.title{
-    color: #0284fe;
-}

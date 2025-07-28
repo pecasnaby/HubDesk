@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil</title>
+    <link rel="stylesheet" href="/HubDesk/styles/profile.css">
+</head>
+<body>
+    <nav class="nav" >
+        <a href="/HubDesk/pages/homepage.html">Home</a>
+        <button class="toggle-btn" onclick="alternarTema()">🌗 Alternar Tema</button>
+
+       <div class="pesquisa" >
+        <input type="text" placeholder="Pesquisar">
+        <button type="submit">🔍</button>
+       </div>
+    </nav>
+
+   
+    <!---Script JAVA-->
+    <script>
+        function alternarTema() {
+        document.body.classList.toggle("dark-mode");
+        }
+    </script>
+    <!---Script JAVA-->
+
+
+    <!---Rodapé -->
+    <footer class="rodape">
+        &copy; 2025 HubDesk. Todos os direitos reservados.
+        <p>Desenvolvido por <a  target="_blank"  href="https://github.com/pecasnaby">Nicolas </a>e <a target="_blank" href="https://github.com/Nicolas-KS24">Kauan</a></p>
+    </footer>
+    <!---Rodapé -->
+
+
+</body>
+</html>
