@@ -53,7 +53,7 @@
 - Upload de arquivos com Multer
 
 ### Banco de Dados:
-- PostgreSQL
+- PostgreSQL ou SQlite3
 
 ### Outras Bibliotecas:
 - jsPDF ou html2pdf.js (para exportação PDF)
